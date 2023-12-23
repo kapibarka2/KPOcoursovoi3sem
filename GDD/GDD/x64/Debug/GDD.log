@@ -1,0 +1,80 @@
+﻿Сборка начата 11.12.2023 23:58:27.
+Уровень детализации журнала: Normal.     1>Проект "D:\БГТУ\GDD\GDD\GDD\GDD.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "D:\БГТУ\GDD\GDD\x64\Debug\".
+         Создание каталога "x64\Debug\GDD.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\GDD.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Error.cpp FST.cpp GDD2023.cpp Generation.cpp Greibach.cpp In.cpp IT.cpp LexAnalysis.cpp Log.cpp LT.cpp MFST.cpp Parm.cpp Polish.cpp SemAnalysis.cpp
+         Error.cpp
+         FST.cpp
+     1>D:\БГТУ\GDD\GDD\GDD\FST.cpp(61,50): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         GDD2023.cpp
+         Generation.cpp
+     1>D:\БГТУ\GDD\GDD\GDD\Generation.cpp(478,83): warning C4312: приведение типов: преобразование из "int" в "char *" большего размера
+         Greibach.cpp
+         In.cpp
+         IT.cpp
+         LexAnalysis.cpp
+     1>D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(21,35): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+     1>D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(668,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(710,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(879,23): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+         Log.cpp
+         LT.cpp
+         MFST.cpp
+     1>D:\БГТУ\GDD\GDD\GDD\MFST.cpp(80,7): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+     1>D:\БГТУ\GDD\GDD\GDD\MFST.cpp(95,11): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+     1>D:\БГТУ\GDD\GDD\GDD\MFST.cpp(114,3): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE6"
+     1>D:\БГТУ\GDD\GDD\GDD\MFST.cpp(130,4): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE5"
+     1>D:\БГТУ\GDD\GDD\GDD\MFST.cpp(168,4): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+     1>D:\БГТУ\GDD\GDD\GDD\MFST.cpp(252,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         Parm.cpp
+         Polish.cpp
+         SemAnalysis.cpp
+         Создание кода...
+     1>D:\БГТУ\GDD\GDD\GDD\Polish.cpp(157): warning C4715: Poliz::Poliz: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\БГТУ\GDD\GDD\x64\Debug\GDD.exe" /INCREMENTAL /ILK:"x64\Debug\GDD.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\БГТУ\GDD\GDD\x64\Debug\GDD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\БГТУ\GDD\GDD\x64\Debug\GDD.lib" /MACHINE:X64 x64\Debug\Error.obj
+         x64\Debug\FST.obj
+         x64\Debug\GDD2023.obj
+         x64\Debug\Generation.obj
+         x64\Debug\Greibach.obj
+         x64\Debug\In.obj
+         x64\Debug\IT.obj
+         x64\Debug\LexAnalysis.obj
+         x64\Debug\Log.obj
+         x64\Debug\LT.obj
+         x64\Debug\MFST.obj
+         x64\Debug\Parm.obj
+         x64\Debug\Polish.obj
+         x64\Debug\SemAnalysis.obj
+         GDD.vcxproj -> D:\БГТУ\GDD\GDD\x64\Debug\GDD.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\GDD.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\GDD.tlog\GDD.lastbuildstate".
+     1>Сборка проекта "D:\БГТУ\GDD\GDD\GDD\GDD.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\БГТУ\GDD\GDD\GDD\GDD.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\БГТУ\GDD\GDD\GDD\FST.cpp(61,50): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\БГТУ\GDD\GDD\GDD\Generation.cpp(478,83): warning C4312: приведение типов: преобразование из "int" в "char *" большего размера
+         D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(21,35): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+         D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(668,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(710,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(879,23): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\БГТУ\GDD\GDD\GDD\MFST.cpp(80,7): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+         D:\БГТУ\GDD\GDD\GDD\MFST.cpp(95,11): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+         D:\БГТУ\GDD\GDD\GDD\MFST.cpp(114,3): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE6"
+         D:\БГТУ\GDD\GDD\GDD\MFST.cpp(130,4): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE5"
+         D:\БГТУ\GDD\GDD\GDD\MFST.cpp(168,4): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+         D:\БГТУ\GDD\GDD\GDD\MFST.cpp(252,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\БГТУ\GDD\GDD\GDD\Polish.cpp(157): warning C4715: Poliz::Poliz: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 13
+    Ошибок: 0
+
+Прошло времени 00:00:08.41

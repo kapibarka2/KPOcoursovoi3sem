@@ -1,0 +1,99 @@
+function int_ func [int_ a, int_ b]
+{
+	create int_ ress = 0;
+	ress = (a + b)* 2 /2;
+	ress = ress * 2;
+	give [ress];
+}
+
+function int_ funcc []
+{	
+	create int_ test = 3;
+	write[test]; breakl;
+	give[test];
+}
+
+procedure cyclen [int_ n]
+{
+	create int_ i = 0;
+	write ["Counting to length: "];
+	write [n]; breakl;
+
+	cycle [i < n]
+	{
+		
+		i = i + 1;
+		write [i]; write [" "];
+	}
+
+	breakl;
+}
+
+
+main
+{
+	create str_ start = combine ["Test Course Project ", "GDD2023 "];
+	create str_ startt = combine [start, "Start in 3 2 1"];
+	write [startt]; breakl;
+	
+	
+	write ["Numbers: "]; breakl;	
+    	create int_ bin = 1b10;
+	write [bin]; breakl;	
+	create int_ oct = 0o10;
+	write [oct]; breakl;	
+	write ["bin - oct = "];
+	create int_ dif = bin - oct;
+	write [dif]; breakl;	
+
+	create bool_ booly = true;
+	write["Bool: "];
+	write[booly]; breakl;
+
+	create chr_ char = "S";
+	write [char]; breakl;
+
+	create int_ exp = 2 + exponent [2, 4];
+	write ["exp[2,4] = "]; 
+	write [exp]; breakl;
+
+	when[exp ~ 16]
+	{
+		write["pow 2,4 really equal 16"]; breakl;
+	}
+	or
+	{
+		write["pow 2,4 not really equal 16"]; breakl;
+	}
+
+	create int_ length = measure ["Now"];
+	write ["length: "];
+	write [length]; breakl;
+
+	create int_ randd = randomize [1, 41];
+	write ["Random: "];
+	write [randd]; breakl; 
+	
+	create int_ kiruha = 256*160;
+	write ["Lexcomp: "];
+	write [kiruha]; breakl;
+		
+	
+	create int_ testx = func[1,5];
+	write [testx]; breakl;
+	create int_ testy = funcc[];
+	write [testy]; breakl;
+ 
+	create int_ t = 4;
+	cyclen[t]; 
+	
+	when[t $ 10]
+	{
+		write ["End of example if <= 10"]; breakl;
+	}
+	or
+	{
+		write ["End of example if > 10"]; breakl;
+	}
+	
+}

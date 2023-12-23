@@ -1,0 +1,79 @@
+﻿Сборка начата 23.12.2023 13:36:48.
+Уровень детализации журнала: Normal.     1>Проект "D:\БГТУ\GDD\GDD\GDD\GDD.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\GDD.tlog\GDD.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\GDD.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Error.cpp FST.cpp GDD2023.cpp Generation.cpp Greibach.cpp In.cpp IT.cpp LexAnalysis.cpp Log.cpp LT.cpp MFST.cpp Parm.cpp Polish.cpp SemAnalysis.cpp
+         Error.cpp
+         FST.cpp
+     1>D:\БГТУ\GDD\GDD\GDD\FST.cpp(61,50): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         GDD2023.cpp
+         Generation.cpp
+         Greibach.cpp
+         In.cpp
+         IT.cpp
+         LexAnalysis.cpp
+     1>D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(14,21): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(20,21): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(21,35): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+     1>D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(31,21): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(37,21): warning C4018: <: несоответствие типов со знаком и без знака
+         Log.cpp
+         LT.cpp
+         MFST.cpp
+     1>D:\БГТУ\GDD\GDD\GDD\MFST.cpp(80,7): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+     1>D:\БГТУ\GDD\GDD\GDD\MFST.cpp(95,11): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+     1>D:\БГТУ\GDD\GDD\GDD\MFST.cpp(114,3): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE6"
+     1>D:\БГТУ\GDD\GDD\GDD\MFST.cpp(130,4): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE5"
+     1>D:\БГТУ\GDD\GDD\GDD\MFST.cpp(168,4): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+     1>D:\БГТУ\GDD\GDD\GDD\MFST.cpp(252,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         Parm.cpp
+         Polish.cpp
+         SemAnalysis.cpp
+         Создание кода...
+     1>D:\БГТУ\GDD\GDD\GDD\Polish.cpp(165): warning C4715: Poliz::Poliz: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\БГТУ\GDD\GDD\Debug\GDD.exe" /INCREMENTAL /ILK:"Debug\GDD.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\БГТУ\GDD\GDD\Debug\GDD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\БГТУ\GDD\GDD\Debug\GDD.lib" /MACHINE:X86 Debug\Error.obj
+         Debug\FST.obj
+         Debug\GDD2023.obj
+         Debug\Generation.obj
+         Debug\Greibach.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\LexAnalysis.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Parm.obj
+         Debug\Polish.obj
+         Debug\SemAnalysis.obj
+         GDD.vcxproj -> D:\БГТУ\GDD\GDD\Debug\GDD.exe
+       FinalizeBuildStatus:
+         Файл "Debug\GDD.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\GDD.tlog\GDD.lastbuildstate".
+     1>Сборка проекта "D:\БГТУ\GDD\GDD\GDD\GDD.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "D:\БГТУ\GDD\GDD\GDD\GDD.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\БГТУ\GDD\GDD\GDD\FST.cpp(61,50): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(14,21): warning C4018: <=: несоответствие типов со знаком и без знака
+         D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(20,21): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(21,35): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+         D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(31,21): warning C4018: <=: несоответствие типов со знаком и без знака
+         D:\БГТУ\GDD\GDD\GDD\LexAnalysis.cpp(37,21): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\БГТУ\GDD\GDD\GDD\MFST.cpp(80,7): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+         D:\БГТУ\GDD\GDD\GDD\MFST.cpp(95,11): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+         D:\БГТУ\GDD\GDD\GDD\MFST.cpp(114,3): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE6"
+         D:\БГТУ\GDD\GDD\GDD\MFST.cpp(130,4): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE5"
+         D:\БГТУ\GDD\GDD\GDD\MFST.cpp(168,4): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+         D:\БГТУ\GDD\GDD\GDD\MFST.cpp(252,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\БГТУ\GDD\GDD\GDD\Polish.cpp(165): warning C4715: Poliz::Poliz: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 13
+    Ошибок: 0
+
+Прошло времени 00:00:11.48

@@ -1,0 +1,26 @@
+﻿Сборка начата 14.12.2023 13:35:58.
+Уровень детализации журнала: Normal.     1>Проект "D:\БГТУ\GDD\GDD\LIB\LIB.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\LIB.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"D:\БГТУ\GDD\GDD\Debug\LIB.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Lib.cpp
+         Lib.cpp
+     1>D:\БГТУ\GDD\GDD\LIB\Lib.cpp(11,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\Lib.exe /OUT:"D:\БГТУ\GDD\GDD\Debug\LIB.lib" /NOLOGO /MACHINE:X86 Debug\Lib.obj
+         LIB.vcxproj -> D:\БГТУ\GDD\GDD\Debug\LIB.lib
+       FinalizeBuildStatus:
+         Файл "Debug\LIB.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\LIB.tlog\LIB.lastbuildstate".
+     1>Сборка проекта "D:\БГТУ\GDD\GDD\LIB\LIB.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\БГТУ\GDD\GDD\LIB\LIB.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\БГТУ\GDD\GDD\LIB\Lib.cpp(11,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:01.17
